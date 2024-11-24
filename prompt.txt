@@ -1,0 +1,3 @@
+def fib(n):
+    """Returns the nth fibonacci number by returning 1 if n==2 or 0 if n==1 else return fib(n-2) + fib(n-1)"""
+    
