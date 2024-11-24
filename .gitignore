@@ -11,3 +11,5 @@ input.txt
 env/
 venv/
 data/repo/
+data/python-trainingData/pythonFiles/
+data/python-trainingData/trainingData*.py
