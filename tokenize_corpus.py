@@ -24,16 +24,14 @@ def load_tokenizer():
     global tokenizer
     tokenizer = tiktoken.get_encoding("gpt2")
 
-def read_and_tokenize_corpus_file():
-    global tokens
-    tokens = []
-    chunk_size = 1024 * 1024  # 1MB
+def read_corpus_file():
+    global text
     with open("/media/razgarize/Western Digital SATA 2TB/codeparrot-clean/Extracted files/merged_dataset.txt", "r") as file:
-        while True:
-            chunk = file.read(chunk_size)
-            if not chunk:
-                break
-            tokens.extend(tokenizer.encode(chunk))
+        text = file.read()
+
+def tokenize_text():
+    global tokens
+    tokens = tokenizer.encode(text, allowed_special="all")
 
 def save_tokens():
     np.save("tokens.npy", tokens)
@@ -50,7 +48,8 @@ def save_val_tokens():
     np.save("val_tokens.npy", val_tokens)
 
 run_task(load_tokenizer, "Loading tokenizer...")
-run_task(read_and_tokenize_corpus_file, "Reading and tokenizing corpus file...")
+run_task(read_corpus_file, "Reading corpus file...")
+run_task(tokenize_text, "Tokenizing text...")
 run_task(save_tokens, "Saving tokens to 'tokens.npy'...")
 run_task(split_tokens, "Splitting tokens into training and validation sets...")
 run_task(save_train_tokens, "Saving training tokens to 'train_tokens.npy'...")
