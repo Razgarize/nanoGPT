@@ -1,0 +1,15 @@
+{"time":"2024-11-24T10:30:34.455864756-06:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-24T10:30:34.455879417-06:00","level":"INFO","msg":"created symlink","path":"/home/razgarize/VSCode_Projects/nanoGPT/wandb/offline-run-20241124_103034-xxyj76ap/logs/debug-core.log"}
+{"time":"2024-11-24T10:30:34.566962937-06:00","level":"INFO","msg":"created new stream","id":"xxyj76ap"}
+{"time":"2024-11-24T10:30:34.566984997-06:00","level":"INFO","msg":"stream: started","id":"xxyj76ap"}
+{"time":"2024-11-24T10:30:34.567009718-06:00","level":"INFO","msg":"handler: started","stream_id":"xxyj76ap"}
+{"time":"2024-11-24T10:30:34.567418218-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"xxyj76ap"}
+{"time":"2024-11-24T10:30:34.567418718-06:00","level":"INFO","msg":"sender: started","stream_id":"xxyj76ap"}
+{"time":"2024-11-24T10:30:34.573653539-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-24T19:54:57.587480154-06:00","level":"INFO","msg":"stream: closing","id":"xxyj76ap"}
+{"time":"2024-11-24T19:54:57.587511674-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-24T19:54:57.587940412-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-24T19:54:57.588067754-06:00","level":"INFO","msg":"handler: closed","stream_id":"xxyj76ap"}
+{"time":"2024-11-24T19:54:57.588074745-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xxyj76ap"}
+{"time":"2024-11-24T19:54:57.588079635-06:00","level":"INFO","msg":"sender: closed","stream_id":"xxyj76ap"}
+{"time":"2024-11-24T19:54:57.588116695-06:00","level":"INFO","msg":"stream: closed","id":"xxyj76ap"}

@@ -1,0 +1,15 @@
+{"time":"2024-11-24T19:57:36.297153953-06:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-24T19:57:36.297168184-06:00","level":"INFO","msg":"created symlink","path":"/home/razgarize/VSCode_Projects/nanoGPT/wandb/offline-run-20241124_195736-fqen5nhm/logs/debug-core.log"}
+{"time":"2024-11-24T19:57:36.402004817-06:00","level":"INFO","msg":"created new stream","id":"fqen5nhm"}
+{"time":"2024-11-24T19:57:36.402025417-06:00","level":"INFO","msg":"stream: started","id":"fqen5nhm"}
+{"time":"2024-11-24T19:57:36.402045327-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"fqen5nhm"}
+{"time":"2024-11-24T19:57:36.402077188-06:00","level":"INFO","msg":"handler: started","stream_id":"fqen5nhm"}
+{"time":"2024-11-24T19:57:36.402082788-06:00","level":"INFO","msg":"sender: started","stream_id":"fqen5nhm"}
+{"time":"2024-11-24T19:57:36.406898366-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-25T03:34:58.578486968-06:00","level":"INFO","msg":"stream: closing","id":"fqen5nhm"}
+{"time":"2024-11-25T03:34:58.578523028-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-25T03:34:58.578925766-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-25T03:34:58.579030388-06:00","level":"INFO","msg":"handler: closed","stream_id":"fqen5nhm"}
+{"time":"2024-11-25T03:34:58.579043588-06:00","level":"INFO","msg":"sender: closed","stream_id":"fqen5nhm"}
+{"time":"2024-11-25T03:34:58.579040798-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"fqen5nhm"}
+{"time":"2024-11-25T03:34:58.579076129-06:00","level":"INFO","msg":"stream: closed","id":"fqen5nhm"}
